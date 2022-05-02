@@ -52,5 +52,6 @@ void ErrorHandling(char* message)
 }
 void ChangeTest()
 {
-    printf("This is change!\n")
+    printf("This is change!\n");
+    //another change begin!
 }
