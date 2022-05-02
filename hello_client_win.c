@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <winsock2.h>
 void ErrorHandling(char* message);
+void ChangeTest();
 
 int main(int argc, char* argv[])
 {
@@ -48,4 +49,8 @@ void ErrorHandling(char* message)
 	fputs(message, stderr);
 	fputc('\n', stderr);
 	exit(1);
+}
+void ChangeTest()
+{
+    printf("This is change!\n")
 }
